@@ -40,7 +40,7 @@ This application allows users to sign up, authenticate (including Google OAuth),
 
 ---
 
-##  High-Level Architecture
+##  Architecture
 
 ```
 Frontend (React + Vite)
@@ -279,7 +279,7 @@ MIT License
 
 Kingsley Obioha
 
-*full-stack, system design** project demonstrating:
+*full-stack, system design* project demonstrating:
 
 * Clean architecture
 * Scalable backend design
