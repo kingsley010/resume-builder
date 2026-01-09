@@ -5,6 +5,6 @@ import { aiLimiter } from "../middleware/rateLimiter.js";
 
 const router = Router();
 
-router.post("/resume/generate", aiLimiter, generateResumeHandler);
+router.post("/resume/generate", generateResumeHandler);
 
 export default router;
