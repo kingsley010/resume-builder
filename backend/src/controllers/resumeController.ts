@@ -1,5 +1,6 @@
 import type { Request, Response } from "express";
 import { generateResume } from "../services/resumeService.js";
+import { prisma } from "../config/db.js";
 
 export async function generateResumeHandler(
   req: Request,
